@@ -24,7 +24,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: wordflowlab/hetu-criticism-studio
-          ref: bd1c9d8c2afa35e426139774697bb1df6563f3ad
+          ref: 10c710a6aca625f40f3d423b823554fa41b61392
           path: hetu-criticism-studio
           persist-credentials: false
       - uses: actions/setup-node@v4
