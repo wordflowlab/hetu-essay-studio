@@ -1,0 +1,13 @@
+erDiagram
+ WORK ||--o{ PROJECT : scopes
+ PROJECT ||--o{ OBSERVATION : preserves
+ PROJECT ||--o{ FRAGMENT : owns
+ OBSERVATION }o--o{ FRAGMENT : informs
+ EVIDENCE }o--o{ OBSERVATION : grounds
+ MOTIF }o--o{ FRAGMENT : marks
+ PROJECT ||--o{ ARRANGEMENT : owns
+ ARRANGEMENT ||--o{ OCCURRENCE : orders
+ FRAGMENT ||--o{ OCCURRENCE : appears
+ FRAGMENT ||--o{ VARIANT : compares
+ PROJECT ||--o{ NOTE : reviews
+ PROJECT ||--o{ FIXED_REVISION : preserves
