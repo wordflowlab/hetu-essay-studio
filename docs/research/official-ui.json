@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-19T06:20:42.966Z",
+  "plugin_id": "org.wordflowlab.essay-studio",
+  "package_sha256": "6c841162cbf4860cd7ff2ed91ffbee744c77f30de31485229ef4b3640695de76",
+  "host_version": "hetu 0.12.6",
+  "surface_origin": "fixed-packaged-host",
+  "platform": "darwin",
+  "architecture": "arm64",
+  "tabs": [
+    "散文阅读",
+    "观察与意象",
+    "片段编排",
+    "备选与意见",
+    "散文交付"
+  ],
+  "geometry": [
+    {
+      "theme": "light",
+      "width": 1360,
+      "header_height": 58.09375,
+      "reading_top": 321.375
+    },
+    {
+      "theme": "light",
+      "width": 760,
+      "header_height": 58.09375,
+      "reading_top": 321.375
+    },
+    {
+      "theme": "dark",
+      "width": 1360,
+      "header_height": 58.09375,
+      "reading_top": 321.375
+    },
+    {
+      "theme": "dark",
+      "width": 760,
+      "header_height": 58.09375,
+      "reading_top": 321.375
+    }
+  ],
+  "empty_state": true,
+  "professional_actions": true,
+  "artifact_files": [
+    "散文审核本.html",
+    "散文阅读本.txt"
+  ],
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "widths": [
+    1360,
+    760
+  ],
+  "reduced_transparency": true,
+  "CAS_preserves_input": true,
+  "explicit_rebase": true,
+  "close_reopen": true,
+  "dirty_buffer_restore": true,
+  "page_errors": [],
+  "limits": [
+    "原生窗口材质、系统输入法及Windows/Linux未由本测试证明"
+  ]
+}

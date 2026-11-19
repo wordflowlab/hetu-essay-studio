@@ -1,0 +1,143 @@
+{
+  "recorded_at": "2026-11-19",
+  "entry": "当前Codex经公开0.12.6 CLI连续操作；既有MCP热发现另行登记",
+  "host_version": "0.12.6",
+  "work_ref": {
+    "workspace_id": "workspace_01abb9b1-8e4a-46ac-a8ee-82d200f35875",
+    "kind": "novel",
+    "object_id": "novel_c070a2bc-10f4-4b55-a61b-981caa46f1ac"
+  },
+  "package_sha256": "6c841162cbf4860cd7ff2ed91ffbee744c77f30de31485229ef4b3640695de76",
+  "original": {
+    "object_id": "ext_812d29f6-199f-42fe-8657-219e05fe5b70",
+    "revision": 1,
+    "sha256": "c099986b0fb3c4649cc9d74ed142cf17857e53a97d2088446c9b586a119576ca"
+  },
+  "revised": {
+    "object_id": "ext_812d29f6-199f-42fe-8657-219e05fe5b70",
+    "revision": 3,
+    "sha256": "4860ae635f129c1a7c60c51f941ae52ddce0f97ecad978fceb4361beca6ed083"
+  },
+  "source_ref": {
+    "kind": "resource",
+    "work_ref": {
+      "workspace_id": "workspace_01abb9b1-8e4a-46ac-a8ee-82d200f35875",
+      "kind": "novel",
+      "object_id": "novel_c070a2bc-10f4-4b55-a61b-981caa46f1ac"
+    },
+    "resource_id": "resource_854a7818-bcb0-4183-a96a-1c51c8f6b70a",
+    "revision": 1,
+    "sha256": "8593e7a3ca02f16df376acdcb78bc5f3fc896cb6689ac3755e51028a930badba"
+  },
+  "original_operation_preserved": true,
+  "previous_revision_preserved": true,
+  "other_states_preserved": 32,
+  "existing_objects_read": 0,
+  "checks_after": {
+    "basis_ref": {
+      "object_id": "ext_812d29f6-199f-42fe-8657-219e05fe5b70",
+      "owner_plugin_id": "org.wordflowlab.essay-studio",
+      "revision": 2,
+      "sha256": "982601acb78c8ce9c2feaabecab45f8368675db7abe117bbc46c2554d8fa43f3"
+    },
+    "note": "缺口不妨碍自由散文创作；检查只揭示明确结构与依据变化。",
+    "project_ref": {
+      "object_id": "ext_812d29f6-199f-42fe-8657-219e05fe5b70",
+      "revision": 2,
+      "sha256": "982601acb78c8ce9c2feaabecab45f8368675db7abe117bbc46c2554d8fa43f3"
+    },
+    "stale_arrangement_ids": [
+      "linear",
+      "reverse"
+    ],
+    "stale_fragment_ids": [],
+    "stale_note_ids": [
+      "note"
+    ],
+    "stale_variant_ids": [
+      "variant"
+    ],
+    "unarranged_fragment_ids": [],
+    "unused_observation_ids": []
+  },
+  "upstream_basis": [
+    {
+      "owner_plugin_id": "org.wordflowlab.criticism-studio",
+      "object_id": "ext_72be05ff-8784-4c19-87d5-c48744cf9715",
+      "revision": 3,
+      "sha256": "2e8ff40c8f1f7162be2eecb27d20d5452b469853078159b802be67532afbdf85"
+    }
+  ],
+  "adopted": false,
+  "finalized": false,
+  "fixture": "原创虚构故事、观察与评论，不是真人研究或文学判断认证",
+  "original_work_fixed_ref": {
+    "revision_ref": {
+      "revision": 1
+    },
+    "sha256": "6577f6a191a8b6889c1c769db9f18e6afeb47e07359c92b47f259514ad33aaaf",
+    "work_ref": {
+      "kind": "novel",
+      "object_id": "novel_c070a2bc-10f4-4b55-a61b-981caa46f1ac",
+      "workspace_id": "workspace_01abb9b1-8e4a-46ac-a8ee-82d200f35875"
+    }
+  },
+  "original_work_record_unchanged": true,
+  "continuation": {
+    "task_kind": "chapter_draft",
+    "fixed_input_refs": [
+      {
+        "kind": "resource",
+        "work_ref": {
+          "workspace_id": "workspace_01abb9b1-8e4a-46ac-a8ee-82d200f35875",
+          "kind": "novel",
+          "object_id": "novel_c070a2bc-10f4-4b55-a61b-981caa46f1ac"
+        },
+        "resource_id": "resource_854a7818-bcb0-4183-a96a-1c51c8f6b70a",
+        "revision": 1,
+        "sha256": "8593e7a3ca02f16df376acdcb78bc5f3fc896cb6689ac3755e51028a930badba"
+      },
+      {
+        "kind": "resource",
+        "work_ref": {
+          "workspace_id": "workspace_01abb9b1-8e4a-46ac-a8ee-82d200f35875",
+          "kind": "novel",
+          "object_id": "novel_c070a2bc-10f4-4b55-a61b-981caa46f1ac"
+        },
+        "resource_id": "resource_1111b67a-6c7a-4ff0-8d40-3c7165165cc1",
+        "revision": 1,
+        "sha256": "e5e21b7520d7f23fdb9fc27246cc4b317722553de024aa72c8aa2864d65f7f6f"
+      }
+    ],
+    "context_full_bytes_verified": true,
+    "candidate_saved_and_read": true,
+    "adopted": false
+  },
+  "current_mcp": {
+    "runtime_version": "0.12.3",
+    "package_sha256": "6c841162cbf4860cd7ff2ed91ffbee744c77f30de31485229ef4b3640695de76",
+    "capabilities_sha256": "49425163133fa10198dd7395bb32c3941747fdb2d74a91dd67a4d7258eabcd41",
+    "hot_discovery": true,
+    "skill_resources_read": 3,
+    "fixed_readback": [
+      {
+        "object_id": "ext_812d29f6-199f-42fe-8657-219e05fe5b70",
+        "revision": 1,
+        "sha256": "c099986b0fb3c4649cc9d74ed142cf17857e53a97d2088446c9b586a119576ca",
+        "title": "灯下的来信"
+      },
+      {
+        "object_id": "ext_812d29f6-199f-42fe-8657-219e05fe5b70",
+        "revision": 3,
+        "sha256": "4860ae635f129c1a7c60c51f941ae52ddce0f97ecad978fceb4361beca6ed083",
+        "title": "灯下的来信"
+      }
+    ],
+    "original_operation_preserved": true,
+    "method_sha256": {
+      "SKILL.md": "a0faeb8334829e970403bd7ff1906a52d630744a2c1a4d1623d2004a797c2a1e",
+      "references/workflows.md": "40a7dee8bd0564445485e7a174bed47d92694c7034e47682e9cc3edde94d163d",
+      "references/operations.md": "3fc36cb3cd0a9a347e061c701b3e718a2798d375bf39e421070752245c1e95e1"
+    }
+  }
+}

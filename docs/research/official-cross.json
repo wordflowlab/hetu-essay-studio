@@ -1,0 +1,56 @@
+{
+  "recorded_at": "2026-11-19T06:19:23.134Z",
+  "host_version": "hetu 0.12.6",
+  "plugin_id": "org.wordflowlab.essay-studio",
+  "package_sha256": "6c841162cbf4860cd7ff2ed91ffbee744c77f30de31485229ef4b3640695de76",
+  "stages": [
+    "essay-studio保存固定原始材料与专业成果",
+    "criticism-studio读取上游固定成果，保持自身专业字段与判断",
+    "专业成果形成固定派生资料；下一稿真实任务目录与原字节回读一致",
+    "回读下游专业引用并保存下一轮目标，宿主只生成候选，原作品保持"
+  ],
+  "handoff_source_ref": {
+    "kind": "resource",
+    "work_ref": {
+      "workspace_id": "workspace_f5666ab5-83dd-408c-b0ce-04eddc74dbad",
+      "kind": "novel",
+      "object_id": "novel_9a449a7e-cc06-4571-999c-1e841eadc235"
+    },
+    "resource_id": "resource_32be4382-cd65-439c-b789-56d9ff32e4ae",
+    "revision": 1,
+    "sha256": "c881cb5fea863f7e3513122efafa6f3b48feda376684375df4e4f4aac8cba2a9"
+  },
+  "followup_task_kind": "chapter_draft",
+  "fixed_task_sources_verified": true,
+  "fixed_results": [
+    {
+      "owner_plugin_id": "org.wordflowlab.essay-studio",
+      "object_id": "ext_efb1d5a0-556f-46c5-b5de-1cb5fd630a73",
+      "revision": 1,
+      "sha256": "f8c34db9a7717c36befb46c5fc27cc7d580c227ba41f67632202bca0eee7b369"
+    },
+    {
+      "owner_plugin_id": "org.wordflowlab.criticism-studio",
+      "object_id": "ext_351c9047-0b63-46ba-b3f4-3acef5ada2bb",
+      "revision": 1,
+      "sha256": "93d2326c2f3a09f4c5393c8e2c373a857ce0c42e9dc0d85c2205916995f34ef2"
+    }
+  ],
+  "original_fixed_ref": {
+    "revision_ref": {
+      "revision": 1
+    },
+    "sha256": "67f4a227a77cf64eb131d9c50c14088cf0df573f5dd0506c51fb370caa7f9c91",
+    "work_ref": {
+      "kind": "novel",
+      "object_id": "novel_9a449a7e-cc06-4571-999c-1e841eadc235",
+      "workspace_id": "workspace_f5666ab5-83dd-408c-b0ce-04eddc74dbad"
+    }
+  },
+  "adopted": false,
+  "finalized": false,
+  "limits": [
+    "原创演示材料，不是真人访谈或历史事实认证",
+    "未外发、付费、采纳或定稿"
+  ]
+}
