@@ -1,0 +1,24 @@
+{
+  "retrieved_on": "2026-11-19",
+  "pages": [
+    {
+      "name": "Ulysses",
+      "url": "https://ulysses.app/",
+      "status": "200",
+      "exit_code": 0,
+      "sha256": "230ae4446a7f218ddb99ae7172f81e1b6d940f74f3917c147161f585b149c3d4",
+      "title": "Ulysses",
+      "scope": "公开页面；未登录、未执行产品业务"
+    },
+    {
+      "name": "Scrivener",
+      "url": "https://www.literatureandlatte.com/scrivener/overview",
+      "status": "200",
+      "exit_code": 0,
+      "sha256": "6edafbc8f9b520f818e6dd690473d098afde833b688d8a6ec52997addaf35192",
+      "title": "#1 Novel &amp; Book Writing Software For Writers",
+      "scope": "公开页面；未登录、未执行产品业务"
+    }
+  ],
+  "limits": "可访问页面不等于已体验产品；HTTP失败保留原状态。"
+}

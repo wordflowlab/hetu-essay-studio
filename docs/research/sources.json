@@ -1,0 +1,70 @@
+{
+  "retrieved_on": "2026-11-19",
+  "sources": [
+    {
+      "repository": "https://github.com/olivierkes/manuskript",
+      "commit": "5241f69ada7e06726f3c300b8851768380bf0900",
+      "license": "GPL-3.0-or-later",
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "7e1f2bc056d5c779d0abcb1c6c67fc0aecd6e1bf481a348966db96cf411ee23a",
+          "read_lines": [
+            1,
+            71
+          ]
+        },
+        {
+          "path": "COPYING",
+          "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+          "read_lines": [
+            1,
+            16
+          ]
+        },
+        {
+          "path": "manuskript/models/outlineItem.py",
+          "sha256": "a5e35fa38ce442cbec9bbf4421f1fabfad234d6c6e7f7519b652b28a7962e060",
+          "read_lines": [
+            1,
+            120
+          ]
+        }
+      ],
+      "use": "只读研究，未运行上游脚本或复制实现"
+    },
+    {
+      "repository": "https://github.com/garybentley/quollwriter",
+      "commit": "5f634ec8c670fef5f398be6f2cf1d8def44d76ed",
+      "license": "Apache-2.0",
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "2f9224d375ee89224cc637acd532bc7445bf59994d6dc554fce82ccd06830d61",
+          "read_lines": [
+            1,
+            100
+          ]
+        },
+        {
+          "path": "license.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "read_lines": [
+            1,
+            20
+          ]
+        },
+        {
+          "path": "src/main/java/com/quollwriter/data/Scene.java",
+          "sha256": "32b709f06ee9c372a73b7eec42a9e2990a44fcf5a64919e2dc9ba0b59cf35bf6",
+          "read_lines": [
+            1,
+            100
+          ]
+        }
+      ],
+      "use": "只读研究，未运行上游脚本或复制实现"
+    }
+  ],
+  "adoption": "Manuskript按独立文本单元和编译选择组织长文；Quoll Writer区分章节、场景、提纲项与附着意见。本包借鉴单元和编排分层，不复制GPL源码、Java对象库或上游自有数据库。"
+}
