@@ -300,6 +300,15 @@ function App() {
           返回作品
         </button>
         <h1>{title}</h1>
+        <details className="goal">
+          <summary>本次目标</summary>
+          <input
+            aria-label="本次目标"
+            placeholder="说出本次希望推进的内容"
+            value={goal}
+            onChange={(e) => setGoal(e.target.value)}
+          />
+        </details>
         <div className="actions">
           <button
             disabled={busy}
@@ -331,14 +340,6 @@ function App() {
         </div>
       )}
       {(status||busy) && <p role="status">{status||"正在整理成果，请稍候"}</p>}
-      <div className="goal">
-        <input
-          aria-label="本次目标"
-          placeholder="说出本次希望推进的内容"
-          value={goal}
-          onChange={(e) => setGoal(e.target.value)}
-        />
-      </div>
       {!record ? (
         <main className="empty">
           <h2>从作品出发</h2>

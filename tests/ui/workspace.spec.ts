@@ -23,6 +23,7 @@ test("真实Electron审阅、专业操作、导出、冲突保留与关闭重开
   let app: any;
   const slug = manifest.id.replace("org.wordflowlab.", ""),
     errors: string[] = [];
+  const geometry:any[]=[];
   try {
     const source=await fixedScript(c,original,'ui-source');
     const refs=[source.source_ref],p=scenario();
@@ -139,6 +140,7 @@ test("真实Electron审阅、专业操作、导出、冲突保留与关闭重开
         });
         for (const [viewIndex, viewName] of config.tabs.entries()) {
           await tab(viewIndex);
+          if(viewIndex===0){const layout=await page.evaluate(()=>({header_height:document.querySelector(".shell>header")!.getBoundingClientRect().height,reading_top:document.querySelector(".reading")!.getBoundingClientRect().top}));expect(layout.header_height).toBeLessThanOrEqual(72);expect(layout.reading_top).toBeLessThanOrEqual(340);geometry.push({theme,width,...layout});}
           await page.screenshot({
             path: info.outputPath(
               theme + "-" + width + "-view-" + viewIndex + ".png",
@@ -281,6 +283,7 @@ test("真实Electron审阅、专业操作、导出、冲突保留与关闭重开
           platform: process.platform,
           architecture: process.arch,
           tabs: config.tabs,
+          geometry,
           empty_state: true,
           professional_actions: true,
           artifact_files: await readdir(exports),
