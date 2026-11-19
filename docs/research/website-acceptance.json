@@ -1,0 +1,58 @@
+{
+  "recorded_at": "2026-11-19",
+  "state": "deployed_and_verified",
+  "origin": "https://hetu.limeai.run",
+  "deployment": "https://d737ae82.hetu-website-3uu.pages.dev",
+  "deployed_source_commit": "128a5c2655c8d8d77582907f21144ffaf4509104",
+  "plugin_release": {
+    "schema_version": 1,
+    "plugin_id": "org.wordflowlab.essay-studio",
+    "version": "0.1.0",
+    "source_commit": "a900a51966e5ca626eeb62253a2d8ef979ddaa68",
+    "archive": "org.wordflowlab.essay-studio-0.1.0.tgz",
+    "archive_sha256": "85761f0ef578382624e8ae9010dd2a4011b5682e17e56c9b3e046c98eec7797e",
+    "package_sha256": "6c841162cbf4860cd7ff2ed91ffbee744c77f30de31485229ef4b3640695de76",
+    "size_bytes": 106399,
+    "minimum_host_version": "0.12.6",
+    "verified_platforms": [
+      "macOS arm64"
+    ],
+    "official_host": {
+      "version": "0.12.6",
+      "git_sha": "b75293837aaa220803b9dc964ba72b8646fa7244",
+      "archive_sha256": "de012d76bb9751d6f2ed78427c6887563fcfd4455ae19717c6f65a9182700ab3"
+    },
+    "acceptance": "https://github.com/wordflowlab/hetu-essay-studio/actions/runs/44470785839",
+    "evidence_url": "https://github.com/wordflowlab/hetu-essay-studio/blob/a900a51966e5ca626eeb62253a2d8ef979ddaa68/docs/research/release-acceptance.json"
+  },
+  "website_local_checks_passed": 38,
+  "website_production_checks_passed": 38,
+  "routes": [
+    {
+      "route": "/plugins/essay-studio/",
+      "status": 200,
+      "raw_sha256": "e5f1c2926caf06ab0def755ecfe5972337cef941787d10efe36b641115896e00",
+      "expected_sha256": "e5f1c2926caf06ab0def755ecfe5972337cef941787d10efe36b641115896e00",
+      "observed_changes": [],
+      "matches_build": true
+    },
+    {
+      "route": "/en/plugins/essay-studio/",
+      "status": 200,
+      "raw_sha256": "c903c8890e4400ad7bb985d1c374f050b3ce2be330f6eb1936cc7b1fd5916e87",
+      "expected_sha256": "c903c8890e4400ad7bb985d1c374f050b3ce2be330f6eb1936cc7b1fd5916e87",
+      "observed_changes": [],
+      "matches_build": true
+    },
+    {
+      "route": "/plugins/essay-studio.png",
+      "status": 200,
+      "raw_sha256": "c6ed1d4f70d2e62311d2d2b40607ecabb2252abdaddce7985424a70c72ebc735",
+      "expected_sha256": "c6ed1d4f70d2e62311d2d2b40607ecabb2252abdaddce7985424a70c72ebc735",
+      "observed_changes": [],
+      "matches_build": true
+    }
+  ],
+  "scope": "两包联合专项：中英分类、身份检索、固定源码与双摘要、真实工作面375/768/1440、键盘、禁用脚本及剪贴板降级",
+  "owner_evidence": "https://github.com/limecloud/hetu/blob/main/docs/research/evidence/essay-criticism-release-2026-11-19.json"
+}

@@ -139,5 +139,12 @@
       "references/workflows.md": "40a7dee8bd0564445485e7a174bed47d92694c7034e47682e9cc3edde94d163d",
       "references/operations.md": "3fc36cb3cd0a9a347e061c701b3e718a2798d375bf39e421070752245c1e95e1"
     }
+  },
+  "public_package_install": {
+    "original_and_revised_preserved": true,
+    "original_operation_preserved": true,
+    "skill_resources_byte_verified": 3,
+    "other_states_preserved": 33,
+    "original_32_states_preserved": true
   }
 }

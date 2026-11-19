@@ -1,0 +1,8 @@
+{
+  "release": "https://github.com/wordflowlab/hetu-essay-studio/releases/tag/v0.1.0",
+  "source_commit": "a900a51966e5ca626eeb62253a2d8ef979ddaa68",
+  "archive_sha256": "85761f0ef578382624e8ae9010dd2a4011b5682e17e56c9b3e046c98eec7797e",
+  "package_sha256": "6c841162cbf4860cd7ff2ed91ffbee744c77f30de31485229ef4b3640695de76",
+  "files_byte_identical": 18,
+  "verified": true
+}
