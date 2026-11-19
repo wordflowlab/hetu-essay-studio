@@ -1,8 +1,8 @@
 {
   "peer": {
     "repository": "wordflowlab/hetu-criticism-studio",
-    "commit": "2cc204349f1cbb2b8d161bd7cddf86874a27b230",
-    "package_sha256": "569bcc7e7c746f9d03ea557332d4e038576177617c83ef22a0bf11ce3d3feea8"
+    "commit": "bd1c9d8c2afa35e426139774697bb1df6563f3ad",
+    "package_sha256": "29e7bb9c46191245590bb2afd15ab33af97f3f51bd8f8e75549e90ecc5e4eb0f"
   },
   "scope": "只属于联合验收，不成为专业包运行依赖"
 }
